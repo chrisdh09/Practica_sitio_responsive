@@ -1,0 +1,24 @@
+/* --- Configuración General --- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font;
+    background-color: #FFFFFF;
+    margin: $margin-reset;
+    padding: 0;
+}
+
+.main-container {
+    max-width: 1000px; // se usa max-with para que luego se pueda hacer mas pequeño
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/* Clearfix para que los contenedores no colapsen con los floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

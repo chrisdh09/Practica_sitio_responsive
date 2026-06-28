@@ -1,0 +1,35 @@
+/* --- 1. Header --- */
+.grayBar {
+    height: 15px;
+    background-color: #E8E8E8;
+    width: 100%;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: normal;
+    color: $primary-color;
+    margin-top: $m-top;
+    margin-bottom: 30px;
+    text-align: left; 
+}
+/* --- 2. Navegación --- */
+.navbar {
+    padding: 15px 0;
+    border-bottom: 2px solid #888; 
+    text-align: justify;
+}
+
+
+.navbar::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: $primary-color;
+    font-size: $font-regular;
+    display: inline-block;
+}
